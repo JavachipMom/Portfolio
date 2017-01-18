@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/f4/0d/cd/f40dcd57732e462d3da2fa690cacc6ed.jpg);
+}
+
+.header {
+  vertical-align: top;
+  text-align: center;
+}
+
+.navi:nth-child(2) {
+  margin: 0 20%;
+}

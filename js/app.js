@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 import Header from './Header'
 import Footer from './Footer'
-import Home from './Home'
+import Main from './Main'
 
 export default React.createClass({
   render() {

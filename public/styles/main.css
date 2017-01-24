@@ -18,7 +18,7 @@ body {
   text-align: center;
 }
 
-.navi:nth-child(2) {
+a:nth-child(even) {
   margin: 0 20%;
 }
 

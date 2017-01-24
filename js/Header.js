@@ -13,6 +13,8 @@ export default React.createClass({
                 to="/blog"> View Blog </Link>
           <Link className="navi"
                 to="/projects"> Projects </Link>
+          <Link className="navi"
+                to="/resume"> Resume </Link>
         </nav>
       </header>
     )

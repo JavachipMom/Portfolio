@@ -3,9 +3,9 @@ import { render } from 'react-dom'
 import { Router, Route, hashHistory } from 'react-router'
 import App from './app'
 import Main from './main'
-import Projects from './Projects'
-import Blog from './Blog'
-import Resume from './Resume'
+import Projects from './projects'
+import Blog from './blog'
+import Resume from './resume'
 
 
 render(
@@ -13,9 +13,9 @@ render(
     <Router history={hashHistory}>
       <Route component={App}>
         <Route path="/home" component={Main} />
-        <Route path="/Projects" component={ Projects } />
-        <Route path="/Blog" component={ Blog } />
-        <Route path="/Resume" component={ Resume } />
+        <Route path="/projects" component={ Projects } />
+        <Route path="/blog" component={ Blog } />
+        <Route path="/resume" component={ Resume } />
       </Route>
     </Router>
   ),

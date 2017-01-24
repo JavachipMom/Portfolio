@@ -8,7 +8,7 @@ export default React.createClass({
         <h1> Shaurice's Portfolio </h1>
         <nav>
           <Link className="navi"
-                to="/home"> Homepage </Link>
+                to="/"> Homepage </Link>
           <Link className="navi"
                 to="/blog"> View Blog </Link>
           <Link className="navi"

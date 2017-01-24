@@ -12,7 +12,7 @@ render(
   (
     <Router history={hashHistory}>
       <Route component={App}>
-        <Route path="/home" component={Main} />
+        <Route path="/" component={Main} />
         <Route path="/projects" component={ Projects } />
         <Route path="/blog" component={ Blog } />
         <Route path="/resume" component={ Resume } />

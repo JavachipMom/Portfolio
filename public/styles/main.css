@@ -9,27 +9,24 @@
   word-wrap: break-word;
 }
 
-body {
-  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/f4/0d/cd/f40dcd57732e462d3da2fa690cacc6ed.jpg);
-}
-
 .header {
   vertical-align: top;
   text-align: center;
+}
+
+.home-banner {
+  background-image: url("san-antonio-wallpaper.jpg");
+  background-position: 50% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100vw;
 }
 
 a:nth-child(even) {
   margin: 0 20%;
 }
 
-.project-name {
-  font-size: 24px;
-}
-
-.invalid input {
-  border-color: red;
-}
-
-.valid input {
-  border-color: green;
+.name {
+  
 }

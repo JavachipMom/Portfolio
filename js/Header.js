@@ -5,14 +5,16 @@ export default React.createClass({
   render() {
     return (
       <header className="header">
-        <h1 className="name"> Shaurice Pearson </h1>
-        <nav>
+        <Link to="/">
+          <h1 className="name"> Shaurice Pearson </h1>
+        </Link>
+        <nav className="navibar">
           <Link className="navi"
-                to="/"> Homepage </Link>
+                to="/"> Portfolio </Link>
           <Link className="navi"
                 to="/blog"> View Blog </Link>
           <Link className="navi"
-                to="/projects"> Projects </Link>
+                to="/aboutme"> About Me </Link>
           <Link className="navi"
                 to="/resume"> Resume </Link>
         </nav>

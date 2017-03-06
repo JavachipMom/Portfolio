@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+.article {
+  border-radius: 10%;
+  border-style: double;
+  display: inline-block;
+  height: 500px;
+  margin: 1% 0% 0 5%;
+  width: 350px;
+}
+
 .blog-post {
   margin: 2% 10%;
   text-align: center;
@@ -9,13 +18,31 @@
   word-wrap: break-word;
 }
 
+.container {
+
+}
+
+.content {
+  margin: 10% 25% 0;
+}
+
+.content-1 {
+  display: inline-block;
+  padding: 1%;
+  width: 68%;
+}
+
 .header {
-  vertical-align: top;
+  background-color: rgb(255,255,255);
+  display: inline;
+  position: fixed;
   text-align: center;
+  vertical-align: top;
+  width: 100%;
 }
 
 .home-banner {
-  background-image: url("san-antonio-wallpaper.jpg");
+  background-image: url("macbook1.jpg");
   background-position: 50% 25%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,10 +50,73 @@
   width: 100vw;
 }
 
-a:nth-child(even) {
-  margin: 0 20%;
+.icon-container {
+  display: inline-block;
+  height: 300px;
+  margin-top: 4%;
+  position: fixed;
+  width: 50px;
 }
 
 .name {
-  
+  display: inline-block;
+  font-size: 2em;
+  margin: 0 25% 0 0;
+}
+
+.navibar {
+  display: inline-block;
+  font-size: 1.5em;
+  width: 56%;
+}
+
+.overlay {
+  background-color: rgba(144, 131, 165, 0.5);
+  height: 100%;
+}
+
+.portfolio-button {
+  background-color: steelblue;
+  font-size: 2em;
+  height: 2em;
+  margin: 4% 43% 0;
+  width: 6em;
+}
+
+.profile-picture {
+  height: 156px;
+  width: 200px;
+}
+
+.project-info {
+  height: 50%;
+  margin: 4% 0 0;
+  padding: 1%;
+}
+
+.project-names {
+  text-align: center;
+}
+
+.screenshot {
+  display: inline-block;
+  height: 30%;
+  margin: 0 17%;
+}
+
+.title {
+  padding: 10% 10% 0;
+  text-align: center;
+  font-size: 5em;
+  font-weight: 600;
+  font-family: fantasy;
+  color: rgba(255,255,255,0.6);
+  margin-top: 0;
+}
+
+.title-projects {
+  font-size: 4em;
+  font-weight: 100;
+  margin-top: 15%;
+  text-align: center;
 }

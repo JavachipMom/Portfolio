@@ -7,18 +7,18 @@ export default React.createClass({
       <section>
         <div className="home-banner">
           <div className="icon-container">
-            <Link to="https://github.com/JavachipMom">
+            <a href="https://github.com/JavachipMom">
               <i className="fa fa-github fa-4x"></i>
-            </Link>
-            <Link to="https://www.linkedin.com/in/shauricenicole90/">
+            </a>
+            <a href="https://www.linkedin.com/in/shauricenicole90/">
               <i className="fa fa-linkedin-square fa-4x"></i>
-            </Link>
-            <Link to="https://medium.com/@shauricenicole">
+            </a>
+            <a href="https://medium.com/@shauricenicole">
               <i className="fa fa-medium fa-4x"></i>
-            </Link>
-            <Link>
+            </a>
+            <a href="https://www.facebook.com/shauricenicole90">
               <i className="fa fa-facebook-official fa-4x"></i>
-            </Link>
+            </a>
           </div>
           <div className="overlay">
             <div>

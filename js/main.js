@@ -7,26 +7,39 @@ export default React.createClass({
       <section>
         <div className="home-banner">
           <div className="icon-container">
-            <a href="https://github.com/JavachipMom">
+            <a className="icon"
+               href="https://github.com/JavachipMom">
               <i className="fa fa-github fa-4x"></i>
             </a>
-            <a href="https://www.linkedin.com/in/shauricenicole90/">
+            <a className="icon"
+               href="https://www.linkedin.com/in/shauricenicole90/">
               <i className="fa fa-linkedin-square fa-4x"></i>
             </a>
-            <a href="https://medium.com/@shauricenicole">
+            <a className="icon"
+               href="https://medium.com/@shauricenicole">
               <i className="fa fa-medium fa-4x"></i>
             </a>
-            <a href="https://www.facebook.com/shauricenicole90">
+            <a className="icon"
+               href="https://www.facebook.com/shauricenicole90">
               <i className="fa fa-facebook-official fa-4x"></i>
+            </a>
+            <a className="icon"
+               href="https://twitter.com/MomReese210">
+              <i className="fa fa-twitter fa-4x"></i>
+            </a>
+            <a className="icon"
+               href="https://angel.co/shaurice-pearson">
+              <i className="fa fa-angellist fa-4x"></i>
             </a>
           </div>
           <div className="overlay">
             <div>
               <h1 className="title"> I Am a Front-End Developer
               </h1>
+              <h2 className="languages">JavaScript ~ React ~ jQuery ~ HTML ~ CSS</h2>
               <button className="portfolio-button"
                       name="button"
-                      type="button"> Portfolio
+                      type="button"> Projects
               </button>
             </div>
           </div>
@@ -34,7 +47,7 @@ export default React.createClass({
         <div>
           <h2 className="title-projects"> Projects </h2>
           <article className="article">
-            <h3 className="project-names"><a href="http://shauricenicole.herokuapp.com/#/">JavaWorks App</a></h3>
+            <h3 className="project-names"><a href="https://javaworks.herokuapp.com/">JavaWorks App</a></h3>
             <img alt="javaworks"
                  className="screenshot"
                  src="styles/JavaWorksScreenshot.png"/>
@@ -48,7 +61,7 @@ export default React.createClass({
                <p className="project-info"> This was my first group project working with other people putting together all of our code into one single entity. Our biggest challenge and skill we improved most on, was using git to branch off, review each other's code, and deal with merge conflicts.</p>
           </article>
           <article className="article">
-            <h3 className="project-names"> Card Project using JSON from OMDBapi.com </h3>
+            <h3 className="project-names"> Movie Card Project </h3>
             <img alt="stockcard"
                  className="screenshot"
                  src="styles/cardScreenshot.png"/>

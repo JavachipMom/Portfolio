@@ -9,6 +9,11 @@
   height: 500px;
   margin: 1% 0% 0 5%;
   width: 350px;
+  vertical-align: top;
+}
+
+.blog-date {
+  text-align: right;
 }
 
 .blog-container {
@@ -20,6 +25,10 @@
   text-align: center;
   width: 75%;
   word-wrap: break-word;
+}
+
+.blog-subtitle {
+  text-align: right;
 }
 
 .blog-title {
@@ -60,12 +69,21 @@
   width: 100vw;
 }
 
+/*.icon { will probably try to inlcude a background later
+  background-color: rgb(255,255,255)
+}*/
+
 .icon-container {
   display: inline-block;
   height: 300px;
-  margin-top: 4%;
+  margin: 4% 0 0 .5%;
   position: fixed;
   width: 50px;
+}
+
+.languages {
+  color: rgba(255,255,255,0.6);
+  text-align: center;
 }
 
 .name {
@@ -119,12 +137,12 @@
 }
 
 .title {
-  padding: 10% 10% 0;
+  padding: 14% 10% 0;
   text-align: center;
   font-size: 5em;
   font-weight: 600;
   font-family: fantasy;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.9);
   margin-top: 0;
 }
 

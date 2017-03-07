@@ -12,7 +12,7 @@ export default React.createClass({
           <Link className="navi"
                 to="/"> Portfolio </Link>
           <Link className="navi"
-                to="/blog"> View Blog </Link>
+                to="/blog"> Blog </Link>
           <Link className="navi"
                 to="/aboutme"> About Me </Link>
           <Link className="navi"

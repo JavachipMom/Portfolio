@@ -34,14 +34,14 @@ export default React.createClass({
         <div>
           <h2 className="title-projects"> Projects </h2>
           <article className="article">
-            <h3 className="project-names">JavaWorks App</h3>
+            <h3 className="project-names"><a href="http://shauricenicole.herokuapp.com/#/">JavaWorks App</a></h3>
             <img alt="javaworks"
                  className="screenshot"
                  src="styles/JavaWorksScreenshot.png"/>
                <p className="project-info"> This was my final project of the course. I built it from the ground up using JavaScript, React, Node.js, JSON, APIs, HTML, CSS3. It is a web application for remote developers searching for the nearest coffeeshops by zipcode.</p>
           </article>
           <article className="article">
-            <h3 className="project-names"> Group Project Blog </h3>
+            <h3 className="project-names"> <a href="https://week-6-group-project.herokuapp.com/">Group Project Blog</a> </h3>
             <img alt="spurs-blog"
                  className="screenshot"
                  src="styles/GroupProjectScreenshot.png"/>

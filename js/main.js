@@ -69,14 +69,14 @@ export default React.createClass({
           </article>
           <article className="article">
             <h3 className="project-names"> YouTube Recreation </h3>
-            <img alt="stockcard"
+            <img alt="YouTube"
                  className="screenshot"
                  src="styles/YoutubeRecreation.png"/>
                <p className="project-info"> This was our first weekend assignment at the start of the course. We had just learned about HTML and CSS. No JavaScript was used to make functionality.</p>
           </article>
           <article className="article">
             <h3 className="project-names"> Calculator Project </h3>
-            <img alt="stockcard"
+            <img alt="Calculator"
                  className="screenshot"
                  src="styles/calculator.png"/>
                <p className="project-info"> This was a calculator that was created using HTML, CSS, JavaScript, and jQuery. </p>

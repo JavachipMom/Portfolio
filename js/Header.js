@@ -12,9 +12,9 @@ export default React.createClass({
           <Link className="navi"
                 to="/"> Portfolio </Link>
           <Link className="navi"
-                to="/blog"> Blog </Link>
-          <Link className="navi"
                 to="/aboutme"> About Me </Link>
+          <Link className="navi"
+                to="/blog"> Blog </Link>
           <Link className="navi"
                 to="/resume"> Resume </Link>
         </nav>

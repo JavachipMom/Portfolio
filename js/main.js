@@ -34,16 +34,19 @@ export default React.createClass({
           </div>
           <div className="overlay">
             <div>
-              <h1 className="title"> I Am a Front-End Developer
+              <h1 className="title"> Shaurice Pearson
               </h1>
+              <h2 className="title-sub"> I am a Front-End Developer </h2>
               <h2 className="languages">JavaScript ~ React ~ jQuery ~ HTML ~ CSS</h2>
               <button className="portfolio-button"
                       name="button"
-                      type="button"> Projects
+                      type="button"><a className="portfolio-button_link"
+                                       href="#projects"> Projects </a>
               </button>
             </div>
           </div>
         </div>
+        <div id="projects"></div>
         <div>
           <h2 className="title-projects"> Projects </h2>
           <article className="article">

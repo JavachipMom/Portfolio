@@ -109,10 +109,15 @@
 
 .portfolio-button {
   background-color: steelblue;
+  border-radius: 25px;
   font-size: 2em;
   height: 2em;
-  margin: 4% 43% 0;
+  margin: 3% 43% 0;
   width: 6em;
+}
+
+.portfolio-button_link {
+  color: rgb(255,255,255);
 }
 
 .profile-picture {
@@ -136,10 +141,20 @@
   margin: 0 17%;
 }
 
+.screenshot:hover {
+  position:relative;
+  top:-25px;
+  left:-35px;
+  width:500px;
+  height:auto;
+  display:block;
+  z-index:999;
+}
+
 .title {
-  padding: 14% 10% 0;
+  padding: 13% 10% 0;
   text-align: center;
-  font-size: 5em;
+  font-size: 6em;
   font-weight: 600;
   font-family: fantasy;
   color: rgba(255,255,255,0.9);
@@ -150,6 +165,13 @@
   font-size: 4em;
   font-weight: 100;
   margin-top: 15%;
+  text-align: center;
+}
+
+.title-sub {
+  color: rgba(15,15,15,0.6);
+  font-family: fantasy;
+  font-size: 3em;
   text-align: center;
 }
 

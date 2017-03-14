@@ -44,16 +44,6 @@ export default React.createClass({
           <div>
             <h2 className="blog-subtitle"> Women Learn to Code San Antonio</h2>
             <h3 className="blog-date"> January 23, 2017</h3>
-            <iframe className="video_klrn"
-                    frameBorder="0"
-                    height="600"
-                    marginWidth="0"
-                    marginHeight="0"
-                    scrolling="no"
-                    seamless allowFullScreen
-                    src="https://player.pbs.org/viralplayer/2365953617"
-                    width="1000">
-            </iframe>
           </div>
           <h2 className="blog-subtitle"> Software is People.... </h2>
           <h3 className="blog-date"> January 7, 2017 </h3>

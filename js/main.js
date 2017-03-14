@@ -46,8 +46,7 @@ export default React.createClass({
             </div>
           </div>
         </div>
-        <div id="projects"></div>
-        <div>
+        <div id="projects">
           <h2 className="title-projects"> Projects </h2>
           <article className="article">
             <h3 className="project-names"><a href="https://javaworks.herokuapp.com/">JavaWorks App</a></h3>

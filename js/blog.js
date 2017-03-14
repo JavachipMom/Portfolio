@@ -51,7 +51,7 @@ export default React.createClass({
                     marginHeight="0"
                     scrolling="no"
                     seamless allowFullScreen
-                    src="http://player.pbs.org/viralplayer/2365953617"
+                    src="https://player.pbs.org/viralplayer/2365953617"
                     width="1000">
             </iframe>
           </div>

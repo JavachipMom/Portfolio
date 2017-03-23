@@ -47,7 +47,7 @@ export default React.createClass({
                <p className="content-1">
               I am a front-end developer, I attended the fall class of 2016 at The Iron Yard in San Antonio, TX. My focus at the school was on JavaScript, using frameworks and libraries like ReactJS, jQuery, and Node.js.<br/>
             <br/>
-              I work hard to get the job done and the job done right. I spent the majority of my time learning the skills to get my foot in the door in technology. Monday through Friday from 9AM to 5PM
+              I work hard to get the job done and the job done right. I spent the majority of my time learning the skills to get my foot in the door in technology. Monday through Friday from 9AM to
             </p>
             <p>
               My understanding of languages so far are:

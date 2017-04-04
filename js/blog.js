@@ -47,7 +47,7 @@ export default React.createClass({
             <img alt="picture of women"
                  className="blog-picture"
                  src="styles/womenwhocode.jpeg"/>
-            <p className="blog-details"> I am a part of a meetup that empowers women to learn how to code. Being as someone who is just starting her career in Front end Development I am in a position that can help other women just starting out or even women who haven't even decided if they want to jump into the tech world.</p>
+               <p className="blog-details"> I am a part of a meetup that empowers women to learn how to code. Being as someone who is just starting her career in Front end Development I am in a position that can help other women just starting out or even women who haven't even decided if they want to jump into the tech world just yet. </p>
           </div>
           <h2 className="blog-subtitle"> Software is People.... </h2>
           <h3 className="blog-date"> January 7, 2017 </h3>
@@ -78,6 +78,9 @@ export default React.createClass({
           </p>
           <h2 className="blog-subtitle"> What is Concatenation? </h2>
           <h3 className="blog-date"> December 13, 2016 </h3>
+          <img alt="coding"
+               className="blog-picture5"
+               src="styles/concatenation-process.png"/>
           <p className="blog-post">Concatenation is the process of adding strings, numbers, and keywords together.. Putting together two strings to create one equation or sentence but it is not the only way we use it. We can continue to concatenate keywords or variables together to produce a whole other outcome. Examples would be like:
           ex. console.log(“Hello my name is ” + “Shaurice”) and it would log out “Hello my name is Shaurice” we could easily change that name to either, console.log(“Hello my name is ” + “Jason”) and it would log out “Hello my name is Jason” we could even change “Hello my name is “ to console.log(“Good evening ” + “Jason”) and it would log out “Good evening Jason”</p>
           <h2 className="blog-subtitle"> Explaining the Box Model</h2>

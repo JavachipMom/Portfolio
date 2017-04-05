@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router'
 
 export default React.createClass({
+  scrollToProjects() {
+    window.scroll(0, 625);
+  },
   render() {
     return (
       <section>
@@ -39,28 +42,29 @@ export default React.createClass({
               <h2 className="title-sub"> I am a Front-End Developer </h2>
               <h2 className="languages">JavaScript ~ React ~ jQuery ~ HTML ~ CSS</h2>
               <button className="portfolio-button"
+                      onClick={this.scrollToProjects}
                       name="button"
-                      type="button"><a className="portfolio-button_link"
-                                       href="#projects"> Projects </a>
+                      type="button">
+                <a className="portfolio-button_link"> Projects
+                </a>
               </button>
             </div>
           </div>
         </div>
-        <div id="projects">
           <h2 className="title-projects"> Projects </h2>
           <article className="article">
             <h3 className="project-names"><a href="https://javaworks.herokuapp.com/">JavaWorks App</a></h3>
             <img alt="javaworks"
                  className="screenshot"
                  src="styles/JavaWorksScreenshot.png"/>
-               <p className="project-info"> This was my final project of the course. I built it from the ground up using JavaScript, React, Node.js, JSON, APIs, HTML, CSS3. It is a web application for remote developers searching for the nearest coffeeshops by zipcode.</p>
+               <p className="project-info"> There was a problem that needed to be addressed with remote workers finding suitable coffeeshops to work from that have wifi.  I built my application JavaWorks to help solve this problem with creating results based off zipcode. All the way from the initial design of how I wanted it to look down to the logo and colors used. I developed this application from the ground up using JavaScript, React, Node.js, JSON, HTML, CSS3, and five separate APIs.</p>
           </article>
           <article className="article">
-            <h3 className="project-names"> <a href="https://week-6-group-project.herokuapp.com/">Group Project Blog</a> </h3>
+            <h3 className="project-names"> <a href="https://week-6-group-project.herokuapp.com/">Spurs Blog</a> </h3>
             <img alt="spurs-blog"
                  className="screenshot"
                  src="styles/GroupProjectScreenshot.png"/>
-               <p className="project-info"> This was my first group project working with other people putting together all of our code into one single entity. Our biggest challenge and skill we improved most on, was using git to branch off, review each other's code, and deal with merge conflicts.</p>
+               <p className="project-info"> I worked on this Spurs blog with three other Developers. Our biggest challenge and skill we improved most on, was using git to branch off, review each other's code, and deal with merge conflicts.</p>
           </article>
           <article className="article">
             <h3 className="project-names"> Movie Card Project </h3>
@@ -83,7 +87,6 @@ export default React.createClass({
                  src="styles/calculator.png"/>
                <p className="project-info"> This was a calculator that was created using HTML, CSS, JavaScript, and jQuery. </p>
           </article>
-        </div>
       </section>
     )
   }

@@ -224,7 +224,6 @@
   vertical-align: top;
 }
 
-.video_klrn {
-  display: inline-block;
-  margin: 0 0 0 5%;
+.video_link {
+  margin: 2%;
 }

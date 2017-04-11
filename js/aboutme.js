@@ -43,7 +43,7 @@ export default React.createClass({
           <div>
             <img alt="profile pic"
                  className="profile-picture"
-                 src="styles/ProfessionalPic.jpg"/>
+                 src="styles/shaurice_pearson.JPG"/>
                <p className="content-1">
                 I am a coffee enthusiast with a love for computer software engineering. I enjoyed my time as a barista to study for my personal training certification. I have always felt at home and happiest learning about computers from creating and editing videos to problem-solving with JavaScript, React, HTML5, and CSS3. <br/>
                 <br/>
@@ -53,7 +53,7 @@ export default React.createClass({
                 <br/>
                 As time went on creating more AMVs is when MySpace became popular. It was a lot of fun and rather intriguing to create my own custom profile page. Of course this was before I knew it was coding that I was actually intrigued with. Before I knew it, I was helping my friends and classmates how to put together their own profile pages using code.<br/>
                 <br/>
-                
+
             </p>
             <p>
               My understanding of languages so far are:

@@ -48,6 +48,10 @@ export default React.createClass({
                  className="blog-picture"
                  src="styles/womenwhocode.jpeg"/>
                <p className="blog-details"> I am a part of a meetup that empowers women to learn how to code. Being as someone who is just starting her career in Front end Development I am in a position that can help other women just starting out or even women who haven't even decided if they want to jump into the tech world just yet. </p>
+               <h3 className="video_link"> Watch the full video
+                 <a href="http://video.klrn.org/video/2365953617/"> here.
+                 </a>
+                </h3>
           </div>
           <h2 className="blog-subtitle"> Software is People.... </h2>
           <h3 className="blog-date"> January 7, 2017 </h3>

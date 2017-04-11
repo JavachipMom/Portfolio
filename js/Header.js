@@ -15,8 +15,8 @@ export default React.createClass({
                 to="/aboutme"> About Me </Link>
           <Link className="navi"
                 to="/blog"> Blog </Link>
-          <Link className="navi"
-                to="/resume"> Resume </Link>
+          <a className="navi"
+             href="https://docs.google.com/document/d/1H8YHgm-NNKk7P-FV-PUabtRr0_XJJ4uMQmLIVXMqWUo/edit?usp=sharing"> Resume </a>
         </nav>
       </header>
     )

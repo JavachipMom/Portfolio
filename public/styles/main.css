@@ -178,15 +178,13 @@
   margin: 0 17%;
 }
 
-.screenshot:hover {
+/*.screenshot:hover {
   position:relative;
   top:-25px;
   left:-35px;
-  width:500px;
-  height:auto;
   display:block;
   z-index:999;
-}
+}*/
 
 .title {
   padding: 13% 10% 0;

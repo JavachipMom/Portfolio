@@ -34,8 +34,9 @@ export default React.createClass({
         <div className="home-banner">
           <div className="overlay">
             <div>
-              <h1 className="title"> My Resume
-              </h1>
+              <iframe
+                src="https://docs.google.com/document/d/1H8YHgm-NNKk7P-FV-PUabtRr0_XJJ4uMQmLIVXMqWUo/pub?embedded=true">
+              </iframe>
             </div>
           </div>
         </div>

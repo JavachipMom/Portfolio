@@ -2,6 +2,10 @@ import React from 'react'
 import { Link } from 'react-router'
 
 export default React.createClass({
+    scrollToBio() {
+      window.scroll(0, 1900);
+    },
+
   render() {
     return (
       <header className="header">
@@ -12,7 +16,9 @@ export default React.createClass({
           <Link className="navi"
                 to="/"> Portfolio </Link>
           <Link className="navi"
-                to="/aboutme"> About Me </Link>
+                onClick={this.scrollToBio}
+                to="/"> About Me
+          </Link>
           <Link className="navi"
                 to="/blog"> Blog </Link>
           <a className="navi"

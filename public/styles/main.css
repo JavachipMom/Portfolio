@@ -12,6 +12,41 @@
   vertical-align: top;
 }
 
+.bio {
+  font-size: 4em;
+  font-weight: 100;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.bio-banner {
+  background-attachment: fixed;
+  background-image: url("woman_backview.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.bio-title {
+  color: rgb(15,15,15);
+  font-size: 6em;
+  font-weight: 600;
+  font-family: fantasy;
+  margin-top: 1%;
+  padding: 13% 10% 0;
+  text-align: center;
+}
+
+.blog-banner {
+  background-attachment: fixed;
+  background-image: url("san-antonio-wallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
 .blog-date {
   text-align: right;
 }
@@ -78,6 +113,11 @@
   text-align: center;
 }
 
+body {
+
+  height: 100%;
+}
+
 .content {
   margin: 10% 14% 0;
 }
@@ -96,12 +136,13 @@
 }
 
 .home-banner {
+  background-attachment: fixed;
   background-image: url("macbook1.jpg");
-  background-position: 50% 25%;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70vh;
-  width: 100vw;
+  height: 100%;
+  margin-bottom: 30%;
 }
 
 /*.icon { will probably try to inlcude a background later
@@ -137,11 +178,6 @@
   width: 56%;
 }
 
-.overlay {
-  background-color: rgba(144, 131, 165, 0.5);
-  height: 100%;
-}
-
 .portfolio-button {
   background-color: steelblue;
   border-radius: 25px;
@@ -162,6 +198,15 @@
   width: 280px;
 }
 
+.projects-banner {
+  background-attachment: fixed;
+  background-image: url("WOMENWHOCODE_PIC5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
 .project-info {
   height: 50%;
   margin: 4% 0 0;
@@ -169,6 +214,16 @@
 }
 
 .project-names {
+  text-align: center;
+}
+
+.projects-title {
+  color: rgb(255,255,255);
+  font-size: 6em;
+  font-weight: 600;
+  font-family: fantasy;
+  margin-top: 1%;
+  padding: 13% 10% 0;
   text-align: center;
 }
 
@@ -194,13 +249,6 @@
   font-family: fantasy;
   color: rgba(255,255,255,0.9);
   margin-top: 0;
-}
-
-.title-projects {
-  font-size: 4em;
-  font-weight: 100;
-  margin-top: 15%;
-  text-align: center;
 }
 
 .title-sub {

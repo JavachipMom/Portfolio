@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 
 export default React.createClass({
   scrollToProjects() {
-    window.scroll(0, 625);
+    window.scroll(0, 800);
   },
 
   render() {

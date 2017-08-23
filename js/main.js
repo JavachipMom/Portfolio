@@ -65,7 +65,7 @@ export default React.createClass({
             <img alt="javaworks"
                  className="screenshot"
                  src="styles/JavaWorksScreenshot.png"/>
-               <p className="project-info"> There was a problem that needed to be addressed with remote workers finding suitable coffeeshops to work from that have wifi.  I built my application JavaWorks to help solve this problem with creating results based off zipcode. All the way from the initial design of how I wanted it to look down to the logo and colors used. I developed this application from the ground up using JavaScript, React, Node.js, JSON, HTML, CSS3, and five separate APIs.</p>
+               <p className="project-info"> There was a problem that needed to be addressed with remote workers finding suitable coffeeshops to work from that have wifi.  I built my application JavaWorks to help solve this problem with creating results based off zipcode. All the way from the initial design of how I wanted it to look down to the logo and colors used. I developed this application from the ground up using JavaScript, React, Node.js, JSON, HTML, CSS3, firebase, and five separate APIs.</p>
           </article>
           <article className="article">
             <h3 className="project-names"> <a href="https://week-6-group-project.herokuapp.com/">Spurs Blog</a> </h3>
@@ -109,7 +109,7 @@ export default React.createClass({
                    className="profile-picture"
                    src="styles/shaurice_pearson.JPG"/>
                 <p className="content-1">
-                  I am a coffee enthusiast with a love for computer software engineering. I enjoyed my time as a barista to study for my personal training certification. I have always felt at home and happiest learning about computers from creating and editing videos to problem-solving with JavaScript, React, HTML5, and CSS3.
+                  I have always felt at home and happiest learning about computers from creating and editing videos to problem-solving with JavaScript, React, HTML5, and CSS3. I was fortunate enough to be awarded a full tuition scholarship to attend The Iron Yard. I enjoyed my time as a barista to study for my Front-end Engineering course with The Iron Yard.
                 </p>
                 <p>
                   I am a front-end developer, I attended the fall class of 2016 at The Iron Yard in San Antonio, TX. My focus at the school was on JavaScript, using frameworks and libraries like ReactJS, jQuery, and Node.js.

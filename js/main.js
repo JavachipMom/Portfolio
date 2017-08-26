@@ -108,11 +108,11 @@ export default React.createClass({
               <img alt="profile pic"
                    className="profile-picture"
                    src="styles/shaurice_pearson.JPG"/>
-                <p className="content-1">
-                  I have always felt at home and happiest learning about computers from creating and editing videos to problem-solving with JavaScript, React, HTML5, and CSS3. I was fortunate enough to be awarded a full tuition scholarship to attend The Iron Yard. I enjoyed my time as a barista to study for my Front-end Engineering course with The Iron Yard.
-                </p>
                 <p>
                   I am a front-end developer, I attended the fall class of 2016 at The Iron Yard in San Antonio, TX. My focus at the school was on JavaScript, using frameworks and libraries like ReactJS, jQuery, and Node.js.
+                </p>
+                <p className="content-1">
+                  I have always felt at home and happiest learning about computers from creating and editing videos to problem-solving with JavaScript, React, HTML5, and CSS3. I was fortunate enough to be awarded a full tuition scholarship to attend The Iron Yard. I enjoyed my time as a barista to study for my Front-end Engineering course with The Iron Yard.
                 </p>
                 <p>
                   My early time in computers started back in middle school when I created AMVs, which stands for Anime Music Videos. I first started using Windows Movie Maker and transitioned into using Vegas Movie Pro. I worked my way up to entering contest at annual conventions for fun.

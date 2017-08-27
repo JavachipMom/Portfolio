@@ -109,7 +109,7 @@ export default React.createClass({
                    className="profile-picture"
                    src="styles/shaurice_pearson.JPG"/>
                 <p>
-                  I am a front-end developer, I attended the fall class of 2016 at The Iron Yard in San Antonio, TX. My focus at the school was on JavaScript, using frameworks and libraries like ReactJS, jQuery, and Node.js.
+                  I am a front-end developer, I attended the fall class of 2016 at The Iron Yard in San Antonio, TX. My focus at the school was on JavaScript, using frameworks and libraries like ReactJS and jQuery.
                 </p>
                 <p className="content-1">
                   I have always felt at home and happiest learning about computers from creating and editing videos to problem-solving with JavaScript, React, HTML5, and CSS3. I was fortunate enough to be awarded a full tuition scholarship to attend The Iron Yard. I enjoyed my time as a barista to study for my Front-end Engineering course with The Iron Yard.

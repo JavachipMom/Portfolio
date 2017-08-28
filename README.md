@@ -4,7 +4,7 @@
 
 ### I am a woman who LOVES her video games and anime. Come chat me up one day about either of them.
 
-### You can see my portfolio live at https://www.shauricepearson.com/
+### You can see my portfolio live at http://www.shauricepearson.com
 
 ### I do eventually want to learn other languages and finally go back to school to obtain my degree, but I felt the courage to take a leap of faith.
 
